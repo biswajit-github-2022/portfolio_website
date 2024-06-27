@@ -1,0 +1,10 @@
+.footer{
+    /* margin-top: auto; */
+    box-shadow: 0 0 20px 5px white;
+}
+.footer_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px; */
+}
