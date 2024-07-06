@@ -62,3 +62,17 @@ body, .dynamic-content {
     border-radius: 20px; /* Less rounded for smaller area */
   }
 }
+
+/* App.css */
+
+/* Change the text selection color */
+::selection {
+  background: rgba(0, 0, 0, 0.1); /* Light semi-transparent black */
+  color: inherit; /* Keep the text color as it is */
+}
+
+/* For Firefox */
+::-moz-selection {
+  background: rgba(0, 0, 0, 0.1); /* Light semi-transparent black */
+  color: inherit; /* Keep the text color as it is */
+}

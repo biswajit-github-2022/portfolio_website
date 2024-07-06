@@ -95,7 +95,7 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio_website">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/page1" element={<Web />} />
