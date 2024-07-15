@@ -44,8 +44,8 @@
 .icons{
   /* border: 2px solid red; */
   border-radius: 10px;
-  padding: 4px 0;
-  background-color: #1b0429;
+  /* padding: 4px 0; */
+  /* background-color: #1b0429; */
 }
 .icons >a> *{
   margin: 0px 5px;
