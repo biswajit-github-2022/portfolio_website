@@ -12,6 +12,15 @@ function Web(){
                 <div class="web_card" >
                     {/* <img src="image1.jpg" alt="Image 1" class="web_card-image"/> */}
                     <div class="web_card-content" >
+                        <h2 class="web_card-title">My Protfolio website</h2>
+                        <p class="web_card-text">Using React Html CSS JS  </p>
+                        <a href="https://biswajit-github-2022.github.io/portfolio_website/" target="_blank"><img src={web} alt="hi" /></a>
+                        <a href="https://github.com/biswajit-github-2022/portfolio_website" target="_blank"><img src={github} alt="hi" /></a>
+                    </div>
+                </div>
+                <div class="web_card" >
+                    {/* <img src="image1.jpg" alt="Image 1" class="web_card-image"/> */}
+                    <div class="web_card-content" >
                         <h2 class="web_card-title">Wall Clock</h2>
                         <p class="web_card-text">Implementing an Asthetic Wall cLock using HTML CSS AND JS </p>
                         <a href="https://biswajit-github-2022.github.io/WALL_CLOCK.github.io/" target="_blank"><img src={web} alt="hi" /></a>

@@ -13,6 +13,7 @@ import {
 import Web from "../src/components/Webprojects/Web.js";
 import Ml from "../src/components/MLprojects/Ml.js";
 import Dl from "../src/components/DLprojects/Dl.js";
+import Ts from "../src/components/Tsprojects/Ts.js";
 import Footer from "../src/components/Footer/Footer.js";
 
 
@@ -82,6 +83,13 @@ function Home() {
             <p class="card-text"></p>
           </div>
         </div>
+        <div class="card" onClick={() => navigate('/page4')}>
+          {/* <img src="image2.jpg" alt="Image 2" class="card-image"/> */}
+          <div class="card-content">
+            <h2 class="card-title">Time Series Projects</h2>
+            <p class="card-text"></p>
+          </div>
+        </div>
       </div>
 
 
@@ -101,6 +109,7 @@ function App() {
         <Route path="/page1" element={<Web />} />
         <Route path="/page2" element={<Ml />} />
         <Route path="/page3" element={<Dl />} />
+        <Route path="/page4" element={<Ts />}/>
       </Routes>
       <div>
         <Footer />

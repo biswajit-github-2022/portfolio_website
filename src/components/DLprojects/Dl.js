@@ -1,5 +1,6 @@
 import "./Dl.css"
 import github from "../../icons/github.svg";
+import web from "../../icons/web.svg";
 function Dl() {
     return (
         <div className="dl_body">
@@ -36,7 +37,7 @@ function Dl() {
                     {/* <img src="image1.jpg" alt="Image 1" class="dl_card-image"/> */}
                     <div class="dl_card-content" >
                         <h2 class="dl_card-title">Chat with PDF (Web)</h2>
-                        <p class="dl_card-text">Implementing Llama model on PDF data and using LLM for question answering. Works on Web</p>
+                        <p class="dl_card-text">Implementing Llama model on PDF data and using LLM for question answering. Works on Web </p>
                         <a href="https://github.com/biswajit-github-2022/term_peoject/tree/main/Basics/chat" target="_blank"><img src={github} alt="hi" /></a>
                     </div>
                 </div>
@@ -45,6 +46,15 @@ function Dl() {
                     <div class="dl_card-content" >
                         <h2 class="dl_card-title">Chat with CSV (API)</h2>
                         <p class="dl_card-text">Question answering with csv using OpenAi API key</p>
+                        <a href="https://github.com/biswajit-github-2022/term_peoject/tree/main/Basics/chat" target="_blank"><img src={github} alt="hi" /></a>
+                    </div>
+                </div>
+                <div class="dl_card" >
+                    {/* <img src="image1.jpg" alt="Image 1" class="dl_card-image"/> */}
+                    <div class="dl_card-content" >
+                        <h2 class="dl_card-title">Gemini chatbot</h2>
+                        <p class="dl_card-text">Used Astro framework and gemini api for chatbot, live using vercel</p>
+                        <a href="https://ai-chat-app-rho-ten.vercel.app/" target="_blank"><img src={web} alt="hi" /></a>
                         <a href="https://github.com/biswajit-github-2022/term_peoject/tree/main/Basics/chat" target="_blank"><img src={github} alt="hi" /></a>
                     </div>
                 </div>
