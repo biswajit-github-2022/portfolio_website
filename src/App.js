@@ -15,6 +15,7 @@ import Ml from "../src/components/MLprojects/Ml.js";
 import Dl from "../src/components/DLprojects/Dl.js";
 import Ts from "../src/components/Tsprojects/Ts.js";
 import Footer from "../src/components/Footer/Footer.js";
+import About from "./components/About/About.js";
 
 
 
@@ -29,10 +30,16 @@ function Home() {
       <div className="image">
         <img className="image_in" src={logo} alt="" />
       </div>
-
+      
       <span className="text">
         <h1>@Biswajit_Rana</h1>
       </span>
+
+      <div  className="about">
+        <button className="abt_btn" onClick={() => navigate('/page5')}>
+          About Me
+        </button>
+      </div>
 
       <div className="contacts">
         <div className="icons">
@@ -92,7 +99,7 @@ function Home() {
         </div>
       </div>
 
-
+    
     </div>
 
   );
@@ -106,6 +113,7 @@ function App() {
     <Router basename="/portfolio_website">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/page5" element={<About />} />
         <Route path="/page1" element={<Web />} />
         <Route path="/page2" element={<Ml />} />
         <Route path="/page3" element={<Dl />} />

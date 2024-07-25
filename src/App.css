@@ -24,6 +24,35 @@
   box-shadow: 0 0 200px #8a2be2 ;
   transition-duration: 0.5s;
 }
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  /* border:2px solid #8a2be2; */
+  /* padding: 0; */
+  /* border-radius: 50%; */
+  /* margin: 30px 0px; */
+}
+.abt_btn{
+  padding: 10px 20px;
+  background-color: #440b68;
+  border: 1px solid #440b68;
+  border-radius: 10px;
+  font-size: large;
+  transition: transform 0.3s;
+  box-shadow: 0 0 20px 5px #440b68;
+  /* font-style: bold; */
+  color: white;
+}
+.about :hover{
+  margin: 0px 5px;
+  /* width: 30px;
+  height: 30px; */
+  transform: translateY(-7px);
+  transition: transform 0.5s;
+  box-shadow: 0 0 20px 10px #1b0429 ;
+}
 .text{
   display: flex;
   justify-content: center;

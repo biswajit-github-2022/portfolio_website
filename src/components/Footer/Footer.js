@@ -4,6 +4,7 @@ import './Footer.css';
 
 function Footer() {
   return (
+
     <footer className="footer" >
       {/* <div style={styles.footer_in}> */}
       <div className='footer_in'>
