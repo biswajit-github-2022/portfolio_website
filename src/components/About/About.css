@@ -1,94 +1,31 @@
+.abt_main{
+  padding-top: 100px;
+}
 .abt_body{
-    /* background-color: rgb(34, 34, 34); */
-    color: white;
-    padding-top: 100px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: rgb(34, 34, 34); */
+  color: white;
+  /* padding-top: 100px; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.abt_heading {
+  text-align: center;
+  font-family: 'Arial', sans-serif;  /* Change the font */
+  font-size: 24px;                  /* Adjust the font size */
+  font-weight: bold;                /* Make the text bold */
+  color: #4A90E2;                   /* Change the text color */
+  background-color: #000000;        /* Add a background color */
+  padding: 20px;                    /* Add padding */
+  border-radius: 10px;              /* Round the corners */
+  box-shadow: 0 4px 8px rgba(126, 21, 21, 0.1);  /* Add a subtle shadow */
+  /* position: absolute; */
   
-  .abt_heading {
-    text-align: center;
-    font-family: 'Arial', sans-serif;  /* Change the font */
-    font-size: 24px;                  /* Adjust the font size */
-    font-weight: bold;                /* Make the text bold */
-    color: #4A90E2;                   /* Change the text color */
-    background-color: #000000;        /* Add a background color */
-    padding: 20px;                    /* Add padding */
-    border-radius: 10px;              /* Round the corners */
-    box-shadow: 0 4px 8px rgba(126, 21, 21, 0.1);  /* Add a subtle shadow */
-  }
-  
-  
-  .abt_container {
-    margin: 100px 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .abt_card {
-    background-color: #2b0242;
-    border-radius: 8px;
-    
-    overflow: hidden;
-    width: 300px;
-    height: 175px;
-    margin: 0px 20px;
-    transition: transform 0.3s;
-    box-shadow: 0 0 50px #1b0429;
-    border: 2px solid gray;
-  }
-  
-  .abt_card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 50px #b767e9;
-    border: 2px solid white;
-  }
-  
-  .abt_card-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .abt_card-content {
-    padding: 15px;
-  }
-  
-  .abt_card-title {
-    font-size: 1.5em;
-    margin: 0;
-  }
-  
-  .abt_card-text {
-    font-size: 1rem;
-    color: #666;
-    margin-top: 10px;
-  }
-  
-  .abt_container a img{
-    margin: 0px 5px;
-    width: 30px;
-    height: 30px;
-  }
-  
-  /* Media Query for Responsive Design */
-  @media (max-width: 768px) {
-    .abt_container {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .abt_card {
-        width: 80%;
-        height: 80%;
-    }
-  }
-  
-  @media (max-width: 200px) {
-    .abt_card {
-        width: 100%;
-        margin: 10px 0;
-    }
-  }
+}
