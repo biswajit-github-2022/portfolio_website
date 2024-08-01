@@ -1,5 +1,6 @@
 .abt_main{
   padding-top: 100px;
+  margin-bottom: 10px;
 }
 .abt_body{
   display: flex;
@@ -16,6 +17,81 @@
   padding: 0px 20px;
 }
 
+/* ------------------------------ */
+.edu {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;  /* Increased max-width for larger container */
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #000;  /* Black background */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.heading_edu {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #f4f4f4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+}
+
+.card_edu1, .card_edu2, .card_edu3 {
+  display: flex;
+  align-items: center;
+  background-color: #333;  /* Dark background for cards */
+  border-radius: 12px;  /* Increased border radius */
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(134, 76, 76, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+  width: calc(100% - 20px);  /* Adjust width to fit within the container */
+  height: 190px;  /* Increased height */
+}
+
+.card_edu1:hover, .card_edu2:hover, .card_edu3:hover {
+  background-color: #555;  /* Lighter background on hover */
+  transform: translateY(-5px);  /* Slight lift effect */
+}
+
+.text_edu1, .text_edu2, .text_edu3 {
+  flex: 1;
+  font-size: 1.2em;  /* Increased font size */
+  line-height: 1.6;
+  color: #ddd;  /* Lighter text color */
+}
+
+.img_edu1,  .img_edu3 {
+  width: 240px;  /* Increased image size */
+  height: 200px;  /* Increased image size */
+  border-radius: 10px;  /* Rounded corners for square images */
+  margin-left: 20px;
+  border: 3px solid #ddd;  /* Increased border width */
+}
+.img_edu2{
+  width: 240px;  /* Increased image size */
+  height: 170px;  /* Increased image size */
+  border-radius: 10px;  /* Rounded corners for square images */
+  margin-left: 20px;
+  border: 3px solid #ddd;  /* Increased border width */
+}
+@media (max-width: 600px) {
+  .card_edu1, .card_edu2, .card_edu3 {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;  /* Full width on small screens */
+      height: auto;  /* Auto height on small screens */
+  }
+
+  .img_edu1, .img_edu2, .img_edu3 {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+}
+
+/* ---------------------------- */
 .abt_heading {
   text-align: center;
   font-family: 'Arial', sans-serif;  /* Change the font */
