@@ -1,8 +1,9 @@
-.abt_main{
+.abt_main {
   padding-top: 100px;
   margin-bottom: 10px;
 }
-.abt_body{
+
+.abt_body {
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
@@ -15,17 +16,41 @@
   /* justify-content: center; */
   align-items: center;
   padding: 0px 20px;
+  margin: 1px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Education */
 /* ------------------------------ */
 .edu {
-  font-family: Arial, sans-serif;
-  max-width: 1200px;  /* Increased max-width for larger container */
+  font-family: 'Pacifico', sans-serif;
+  /* max-width: 1200px;  Increased max-width for larger container */
   margin: 0 auto;
-  padding: 30px;
-  background-color: #000;  /* Black background */
+  /* padding: 30px; */
+  /* background-color: #000;  Black background */
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); */
 }
 
 .heading_edu {
@@ -38,70 +63,127 @@
   letter-spacing: 1px;
 }
 
-.card_edu1, .card_edu2, .card_edu3 {
+.card_edu1,
+.card_edu2,
+.card_edu3 {
   display: flex;
   align-items: center;
-  background-color: #333;  /* Dark background for cards */
-  border-radius: 12px;  /* Increased border radius */
+  background-color: #37023b;
+  /* Dark background for cards */
+  border-radius: 12px;
+  /* Increased border radius */
   padding: 20px;
   margin-bottom: 25px;
   box-shadow: 0 4px 8px rgba(134, 76, 76, 0.2);
   transition: background-color 0.3s, transform 0.3s;
-  width: calc(100% - 20px);  /* Adjust width to fit within the container */
-  height: 190px;  /* Increased height */
+  /* width: calc(100% - 20px);   */
+  height: 190px;
+  /* Increased height */
 }
 
-.card_edu1:hover, .card_edu2:hover, .card_edu3:hover {
-  background-color: #555;  /* Lighter background on hover */
-  transform: translateY(-5px);  /* Slight lift effect */
+.card_edu1:hover,
+.card_edu2:hover,
+.card_edu3:hover {
+  background-color: #643562;
+  /* Lighter background on hover */
+  box-shadow: 10px 0px 100px rgba(134, 76, 76, 0.4);
+  transform: translateY(-5px);
+  /* Slight lift effect */
 }
 
-.text_edu1, .text_edu2, .text_edu3 {
+.text_edu1,
+.text_edu2,
+.text_edu3 {
   flex: 1;
-  font-size: 1.2em;  /* Increased font size */
+  font-size: 1.2em;
+  /* Increased font size */
   line-height: 1.6;
-  color: #ddd;  /* Lighter text color */
+  color: #ddd;
+  /* Lighter text color */
 }
 
-.img_edu1,  .img_edu3 {
-  width: 240px;  /* Increased image size */
-  height: 200px;  /* Increased image size */
-  border-radius: 10px;  /* Rounded corners for square images */
-  margin-left: 20px;
-  border: 3px solid #ddd;  /* Increased border width */
+.img_edu1,
+.img_edu3 {
+  width: 240px;
+  /* Increased image size */
+  height: 200px;
+  /* Increased image size */
+  border-radius: 10px;
+  /* Rounded corners for square images */
+  /* margin-left: 20px; */
+  border: 3px solid #ddd;
+  /* Increased border width */
 }
-.img_edu2{
-  width: 240px;  /* Increased image size */
-  height: 170px;  /* Increased image size */
-  border-radius: 10px;  /* Rounded corners for square images */
+
+.img_edu2 {
+  width: 240px;
+  /* Increased image size */
+  height: 170px;
+  /* Increased image size */
+  border-radius: 10px;
+  /* Rounded corners for square images */
   margin-left: 20px;
-  border: 3px solid #ddd;  /* Increased border width */
+  border: 3px solid #ddd;
+  /* Increased border width */
 }
+
 @media (max-width: 600px) {
-  .card_edu1, .card_edu2, .card_edu3 {
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;  /* Full width on small screens */
-      height: auto;  /* Auto height on small screens */
+  .card_edu1,
+  .card_edu2,
+  .card_edu3 {
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 100%;  Full width on small screens */
+    height: auto;
+    /* Auto height on small screens */
   }
-
-  .img_edu1, .img_edu2, .img_edu3 {
-      margin-left: 0;
-      margin-top: 10px;
+  .img_edu1,
+  .img_edu2,
+  .img_edu3 {
+    margin-left: 0;
+    margin-top: 10px;
   }
 }
-
 /* ---------------------------- */
+
+
+
+
+
+/* skills */
+/* -------------------------------- */
+.a{
+  padding: 100px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.new{
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  overflow-x:auto ;
+}
+
+/* ----------------------------------- */
 .abt_heading {
   text-align: center;
-  font-family: 'Arial', sans-serif;  /* Change the font */
-  font-size: 24px;                  /* Adjust the font size */
-  font-weight: bold;                /* Make the text bold */
-  color: #4A90E2;                   /* Change the text color */
-  background-color: #000000;        /* Add a background color */
-  padding: 20px;                    /* Add padding */
-  border-radius: 10px;              /* Round the corners */
-  box-shadow: 0 4px 8px rgba(126, 21, 21, 0.1);  /* Add a subtle shadow */
+  font-family: 'Arial', sans-serif;
+  /* Change the font */
+  font-size: 24px;
+  /* Adjust the font size */
+  font-weight: bold;
+  /* Make the text bold */
+  color: #4A90E2;
+  /* Change the text color */
+  background-color: #000000;
+  /* Add a background color */
+  padding: 20px;
+  /* Add padding */
+  border-radius: 10px;
+  /* Round the corners */
+  box-shadow: 0 4px 8px rgba(126, 21, 21, 0.1);
+  /* Add a subtle shadow */
   /* position: absolute; */
-  
+
 }
